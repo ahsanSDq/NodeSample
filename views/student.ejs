@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+        <html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
+    <script type="text/javascript" src="/javascripts/jquery1.8.js"></script>
+    <script type="text/javascript" src="/javascripts/student.js"></script>
+</head>
+<body>
+<div class="container">
+    <form class="form-horizontal">
+        <fieldset>
+            <legend>Student registration Form</legend>
+            <div class="control-group">
+                <label class="control-label" for="name">Student Name:</label>
+                <div class="controls">
+                    <input type="text" class="input-xlarge" id="Name">
+                </div>
+                <br>
+                <label class="control-label" for="age">Age:</label>
+                <div class="controls">
+                    <input type="number" class="input-xlarge" id="Age">
+                    <p class="help-block">Enter student age in numeric format</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" id="btn">Submit to server</button>
+            <button type="submit" class="btn btn-primary" id="newentrybtn">click to reload form</button>
+        </fieldset>
+    </form>
+</div>
+</body>
+        </html>
